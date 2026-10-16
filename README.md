@@ -31,3 +31,9 @@ Firmware: `ai_teacher_esp_shield_v2.ino`, supplied by the owner. Original WiFi/A
 | Initial startup HIGH pin | 19 |
 
 Target: **classic ESP32, 4MB flash**. ESP32-S3/C3 boards are not supported by this firmware. Existing saved WiFi settings are retained; no full-chip erase is performed. The existing WiFi setup portal remains available when the saved/default network is unavailable.
+
+## Original Arduino source and audio
+
+The unchanged [Arduino sketch](ai_teacher_esp_shield_v2/ai_teacher_esp_shield_v2.ino) and all [41 MP3 clips plus the logo](ai_teacher_esp_shield_v2/data) are included in the repository. Keep the `data` folder inside the sketch folder. Download the repository ZIP to obtain the source and audio together.
+
+For the ready-to-use Windows upload, use the small flasher download above; the app uploads the audio filesystem too. The editable flasher includes the compiler and required libraries for rebuilding. SHA-256 checksums are recorded in `ASSET_SHA256.json` and original source provenance in `firmware_source.json`.
